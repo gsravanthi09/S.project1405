@@ -1,6 +1,6 @@
 stages:
   - stage: Continuosintegration
-    displayName: Continuosintegration
+    DisplayName: Continuosintegration
     jobs:
     - job: dotnetbuild
       displayName: dotnetbuildjob
