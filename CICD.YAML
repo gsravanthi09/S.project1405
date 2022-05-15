@@ -6,9 +6,9 @@ stages:
       displayName: dotnetbuildjob
       steps:
       - script: dotnet restore
-        displayName: restore
+        DisplayName: restore
       - script: dotnet build
-        displayName: build
+        DisplayName: build
       - script: dotnet test
         DisplayName: test
       - script: dotnet publish
